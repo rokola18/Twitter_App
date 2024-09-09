@@ -1,0 +1,835 @@
+body{
+    background-color: rgb(6,6,6);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    overflow-x: hidden;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.primera-seccion{
+    grid-column: 1 / 2;
+    position: fixed;
+    left: 120px;
+
+}
+
+.primera-parte{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 250px;
+   
+}
+
+.icon-twiter{
+    width: 26px;
+}
+
+.solo-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: aliceblue;
+    padding-left: 13px;
+    height: 50px;
+    width: 250px;
+}
+
+.home{
+    font-weight: 600;
+}
+
+.explore-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifications-page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hover-iconos{
+    cursor: pointer;
+    width: 250px;
+}
+
+
+.hover-iconos:hover{
+    background-color: rgb(43, 42, 42);
+    border-radius: 50px;
+}
+
+.uno:hover{
+    width: 130px;
+}
+
+.dos:hover{
+    width: 144px;
+}
+
+.tres:hover{
+    width: 187px;
+}
+
+.cuatro:hover{
+    width: 170px;
+}
+
+.cinco:hover{
+    width: 119px;
+}
+
+.seis:hover{
+    width: 179px;
+}
+
+.siete:hover{
+    width: 198px;
+}
+
+.ocho:hover{
+    width: 153px;
+}
+
+.nueve:hover{
+    width: 135px;
+}
+
+.diez:hover{
+    width: 122px;
+}
+
+.cuadro{
+    background-color: black;
+}
+
+.boton-post{
+    display: block;
+    padding: 16px;
+    width: 228px;
+    position: absolute;
+    border-radius: 50px;
+    background-color: rgb(29,155,240);
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 16px;
+    border: none;
+    margin-top: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button-icon {
+    display: none; 
+}  
+
+.boton-post:hover{
+    background-color: rgb(62, 152, 231);
+}
+
+.cuenta{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 60px;
+    position: absolute;
+    margin-top: 110px;
+    padding-left: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.cuenta:hover{
+    background-color: rgb(43, 42, 42);
+    border-radius: 50px;
+}
+
+.circulo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(69,90,100); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF; 
+    font-size: 18px;
+}
+
+.nombre{
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.usuario{
+    color: rgb(90,94,98);
+}
+
+.img-cuenta{
+    margin-left: 55px;
+}
+
+.img-cuenta img{
+    width: 20px;
+}
+
+.options{
+    display: none;
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(0,0,0);
+    width: 300px;
+    height: 200px;
+    top: 450px;
+    align-content: flex-end;
+    box-shadow: 0 0 5px rgba(220, 220, 220, 0.5);
+    
+}
+
+.options a{
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: 600;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.options-2{
+    margin-bottom: 20px;
+}
+
+.options a:hover{
+    background-color: rgb(43, 42, 42);
+}
+
+.options.active {
+    display: block;
+}
+
+.segunda-seccion{
+    grid-column: 2 / 3;
+    margin-right: 20px;
+    border: 1px solid rgb(29,31,33);
+    width: 600px;
+    position: absolute;
+    right: 500px;
+}
+
+.raya{
+    border: 1px solid rgb(29,31,33);
+}
+
+.encabezado{
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.encabezado div{
+    color: aliceblue;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.encabezado div:hover{
+    background-color: rgb(43, 42, 42);
+}
+
+.encabezado-2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 67px;
+    margin-left: 20px;
+}
+
+.encabezado-2 input{
+    border: none;
+    outline: none;
+    background-color: rgb(6,6,6);
+    color: aliceblue;
+    font-size: 21px;
+    width: 100%;
+}
+
+.mundo-padre{
+    display: flex;
+    flex-direction: column;
+}
+
+.mundo-2{
+    display: flex;
+    gap: 5px;
+    margin-left: 70px;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;
+}
+
+
+.mundo-padre.active {
+    display: flex;
+}
+
+
+.mundo-2 p{
+    font-size: 14px;
+    color: rgb(26,141,218);
+    font-weight: 600;
+}
+
+.mundo-2 img{
+    width: 16px;
+}
+
+.mundo-1{
+    display: none;
+}
+
+.mundo-1.active{
+    display: block;
+}
+
+hr{
+    border: 1px solid rgb(29,31,33);
+    margin-left: 65px;
+    margin-right: 20px;
+}
+
+.options-3{
+    display: none;
+    position: absolute;
+    border-radius: 15px;
+    background-color: rgb(0,0,0);
+    width: 340px;
+    height: 200px;
+    top: 160px;
+    margin-left: -25px;
+    box-shadow: 0 0 5px rgba(220, 220, 220, 0.5);
+}
+
+.options-3.active {
+    display: block;
+}
+
+.options-3 p{
+    margin-bottom: -13px;
+    margin-left: 18px;
+    color: rgb(102,106,110) ;
+}
+ 
+.options-3 p:nth-last-of-type(3){
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.tweets {
+    margin-top: 20px;
+}
+
+.tweet {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    border-bottom: 1px solid rgb(29,31,33);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tweet-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweet-header {
+    display: flex;
+    gap: 5px;
+}
+
+.username {
+    font-weight: 600;
+}
+
+.handle {
+    color: rgb(90,94,98);
+}
+
+.tweet-body {
+    margin-top: 5px;
+}
+
+.tweet-media {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid rgb(29,31,33);
+}
+
+.tercera-seccion {
+    padding-top: 5px;
+    padding-left: 7px;
+    position: absolute;
+    right: 130px;
+}
+
+
+.busqueda{
+    width: 307px;
+    height: 43px;
+    background-color: rgb(32,35,39);
+    border: none;
+    border-radius: 50px;
+    padding-left: 50px;
+    position: relative;
+    font-size: 16px;
+    color: #FFF;
+    top: 0;
+    margin-top: 5px;
+}
+
+.icon-img{
+    width: 22px;
+    position: relative;
+    left: 16px;
+    top: 17px;
+    color: rgb(99,103,108);
+}
+
+.icon-img-2{
+   position: fixed;
+   top: 0;
+}
+.negro{
+    background-color: black;
+    height: 56px;
+    width: 350px;
+    position: fixed;
+    top: 0;
+}
+
+.subscribete{
+    width: 357px;
+    padding-left: 15px;
+    padding-bottom: 12px;
+    margin-top: 60px;
+    border-radius: 15px;
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subscribete button{
+    padding: 10px;
+    border-radius: 20px;
+    width: 110px;
+    background-color: rgb(29,155,240);
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.subs{
+    font-size: 20px;
+    margin-top: 13px;
+}
+
+.subscribete p{
+    color: #d4d6d6;
+    margin-top: -9px;
+}
+
+.tofollow{
+    border-radius: 15px;
+    margin-top: 15px;
+    width: 340px;
+}
+
+.tofollow div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    column-gap: 10px;
+    height: 65px;
+}
+
+.tofollow{
+    padding-left: 16px;
+}
+
+
+.follow img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.perfil p{
+    margin: 0px;
+}
+
+.nombre-abajo {
+    align-self: flex-start; 
+    color: rgb(92,96,100);
+}
+
+.margen-extra{
+    margin-top: 60px; 
+  }
+
+.margen-superior {
+   margin-top: 5px; 
+}
+
+.boton-follow{
+    margin-left: auto; 
+    margin-right: 16px;
+    padding: 8px 17px;
+    background-color: #e9eef1;
+    color: black;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 1500px) and (min-width: 1344px){
+    .primera-seccion{
+        left: 160px;
+    }
+
+    .segunda-seccion{
+        right: 440px;
+    }
+
+    .tercera-seccion{
+        right: 70px;
+    }
+}
+
+
+
+@media (max-width: 1344px) and (min-width: 1200px){
+
+    .segunda-seccion{
+        right: 400px;
+    }
+
+    .tercera-seccion{
+        right: 30px;
+    }
+}
+
+@media (max-width: 1296px) and (min-width: 1000px){
+
+    .segunda-seccion{
+        right: 480px;
+    }
+
+    .tercera-seccion{
+        right: 110px;
+    }
+    
+}
+
+@media (max-width: 1200px) and (min-width: 500px){
+
+    .segunda-seccion{
+        right: 400px;
+    }
+
+    .tercera-seccion{
+        right: 30px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 400px){
+
+    .segunda-seccion{
+       left: 82px;
+
+    }
+
+    .tercera-seccion{
+        left: 710px;
+    }
+}
+
+@media (max-width: 1296px){
+    .span-2{
+        display: none;
+    }
+
+    .boton-post{
+        width: 50px;
+        margin-left: -2px;
+        padding: 18px 28px;
+        border-radius: 50px;
+    }
+
+    .button-text, .nombre, .usuario, .img-cuenta{
+        display: none;
+    }
+
+    .button-icon{
+        display: inline;
+        margin-left: -10px;
+        font-size: 18px;
+    }
+
+    .cuenta{
+        width: 50px;
+    }
+
+    .uno:hover, .uno, .dos, .dos:hover, .tres, .tres:hover, .cuatro, .cuatro:hover, .cinco, .cinco:hover, 
+    .seis,  .seis:hover, .siete, .siete:hover, .ocho, .ocho:hover, .nueve, .nueve:hover, .diez, .diez:hover{
+        width: 50px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px){
+    .primera-seccion{
+        margin-left: 11%;
+    }
+
+    .segunda-seccion{
+        margin-left: 10%;
+    }
+
+}
+
+@media (max-width: 800px) and (min-width: 380px){
+    .primera-seccion{
+        margin-left: 1%;
+    }
+
+    .segunda-seccion{
+        margin-left: -1%;
+    }
+
+}
+
+@media (max-width: 1200px){
+    .tercera-seccion {
+        position: relative;
+    }
+ }
+
+ @media (max-width: 1081px){
+    .subscribete{
+        max-width: 305px;
+    }
+
+    .busqueda{
+        max-width: 253px;
+    }
+
+    .tofollow{
+        max-width: 290px;
+    }
+   
+ }
+
+ @media (max-width: 1000px){
+    .tercera-seccion{
+        display: none;
+    }
+ }
+
+
+
+ @media (max-width: 700px) and (min-width: 400px){
+    .segunda-seccion {
+        max-width: 81.2%;
+        width: 100%;
+    }
+
+    .encabezado{
+        max-width: 600px;
+        width: 83%;
+    }
+ }
+
+
+
+
+ @media (max-width: 1483px) and (min-width: 1350px){
+    .primera-seccion{
+        left: 100px;
+    }
+ }
+
+ @media (max-width: 1427px) and (min-width: 1250px){
+    .primera-seccion{
+        left: 50px;
+    }
+ }
+
+ @media (max-width: 1374px) and (min-width: 1250px){
+    .primera-seccion{
+        left: 20px;
+    }
+ }
+
+ @media (max-width: 1296px) and (min-width: 1150px){
+    .primera-seccion{
+        left: 120px;
+    }
+ }
+
+ 
+ @media (max-width: 1288px) and (min-width: 1080px){
+    .primera-seccion{
+        position: absolute;
+        left: 100px;
+    }
+ }
+
+
+ @media (max-width: 1276px) and (min-width: 1000px){
+    .primera-seccion{
+        left: 80px;
+    }
+ }
+
+ @media (max-width: 1247px) and (min-width: 900px){
+    .primera-seccion{
+        left: 40px;
+    }
+ }
+
+ @media (max-width: 1210px) and (min-width: 800px){
+    .primera-seccion{
+        left: 4px;
+    }
+ }
+
+ @media (max-width: 1110px) and (min-width: 400px){
+    .primera-seccion{
+        left: 4px;
+    }
+ }
+
+
+
+
+
+
+ 
+ @media (max-width: 376px) and (min-width: 360px) {
+    .primera-seccion {
+        right: auto;
+        width: 100%; 
+        
+    }
+
+    .primera-parte{
+        display: flex; 
+        flex-direction: row;
+        position: fixed; 
+        width: 100%;
+        bottom: 0; 
+        background-color: black; 
+        z-index: 1000;
+        
+    }
+
+    .segunda-seccion {
+        right: auto;
+        width: 100%; 
+        z-index: -1;
+        box-sizing: border-box;
+    }
+
+    .tercera-seccion {
+        display: none; 
+    }
+
+    .span-2, .button-text, .nombre, .usuario, .img-cuenta, 
+    .premiun, .profile, .more, .twiter-img{
+        display: none; 
+    }
+
+    .boton-post{
+        position: fixed; 
+        right: 30px;
+        bottom: 0; 
+        margin-right: 10px; 
+        margin-bottom: 80px; 
+        padding: 15px 10px; 
+    }
+
+    .cuenta {
+        display: none;
+    }
+
+    .button-icon {
+        margin-left: 1px;
+        font-size: 16px; 
+    }
+
+    .subscribete, .busqueda {
+        max-width: 100%; 
+        width: 90%; 
+    }
+
+    .encabezado {
+        max-width: 100%;
+    }
+
+    .solo-icon img{
+        width: 21px;
+        
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
