@@ -2,9 +2,9 @@ import React from 'react';
 import Explore from './Explore';
 import Notifications from './Notifications';
 
-const SegundaSeccion = ({ showContent, handleReplyClick, isOpen, handleMundoClick, options3Active, options3Ref, options3IconRef, tweets }) => {
+const SegundaSeccion = ({ showContent, handleReplyClick, isOpen, handleMundoClick, options3Active, options3Ref, options3IconRef, tweets, optionsActive }) => {
   return (
-    <section className='segunda-seccion'>
+    <section className={`segunda-seccion ${optionsActive ? 'z-index-lower' : ''}`}>
       {showContent === 'home' && (
         <>
           <div className='encabezado raya'>

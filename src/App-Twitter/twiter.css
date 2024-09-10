@@ -89,15 +89,15 @@ body{
 }
 
 .seis:hover{
-    width: 179px;
+    width: 195px;
 }
 
 .siete:hover{
-    width: 198px;
+    width: 160px;
 }
 
 .ocho:hover{
-    width: 153px;
+    width: 193px;
 }
 
 .nueve:hover{
@@ -192,7 +192,15 @@ body{
     top: 450px;
     align-content: flex-end;
     box-shadow: 0 0 5px rgba(220, 220, 220, 0.5);
-    
+    z-index: 1;
+}
+
+.options.active ~ .segunda-seccion {
+    z-index: 1; 
+}
+
+.z-index-lower {
+    z-index: -1; 
 }
 
 .options a{
@@ -528,7 +536,6 @@ hr{
     cursor: pointer;
 }
 
-
 @media (max-width: 1500px) and (min-width: 1344px){
     .primera-seccion{
         left: 160px;
@@ -747,11 +754,13 @@ hr{
  }
 
 
+ @media (max-width: 1300px){
+    .solo-icon{
+        width: 0;
+    }
+ }
 
 
-
-
- 
  @media (max-width: 376px) and (min-width: 360px) {
     .primera-seccion {
         right: auto;

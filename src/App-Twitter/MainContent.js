@@ -120,6 +120,7 @@ const MainContent = () => {
         options3Ref={options3Ref}
         options3IconRef={options3IconRef}
         tweets={tweets}
+        optionsActive={optionsActive}
       />
 
       <TerceraSeccion showContent={showContent} />
