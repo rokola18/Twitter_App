@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; 
-import { faFeatherPointed } from '@fortawesome/free-solid-svg-icons';
+import { faFeatherPointed, faHouse } from '@fortawesome/free-solid-svg-icons';
 
 const PrimeraSeccion = ({ handleHomeClick, handleExploreClick, handleNotificationsClick, handleIconClick, optionsActive, optionsRef, optionsIconRef }) => {
   return (
@@ -16,7 +16,7 @@ const PrimeraSeccion = ({ handleHomeClick, handleExploreClick, handleNotificatio
 
           <div className='hover-iconos uno' onClick={handleHomeClick}>
             <div className='solo-icon'>
-             <img className='icon-twiter' src="/iconos/home (1).png" alt="Icon" />
+              <FontAwesomeIcon className='icon-twiter' icon={faHouse}/>
               <span className='home span-2'>Home</span>
             </div>
           </div>
