@@ -16,7 +16,7 @@ const PrimeraSeccion = ({ handleHomeClick, handleExploreClick, handleNotificatio
 
           <div className='hover-iconos uno' onClick={handleHomeClick}>
             <div className='solo-icon'>
-              <img className='icon-twiter' alt='casa' src='https://cdn-user-icons.flaticon.com/152601/152601768/1718674018872.svg?token=exp=1718674935~hmac=e2f96a4595b1ad0ee1c2ece873d2327f' />
+             <img className='icon-twiter' src="/iconos/home (1).png" alt="Icon" />
               <span className='home span-2'>Home</span>
             </div>
           </div>
@@ -26,7 +26,7 @@ const PrimeraSeccion = ({ handleHomeClick, handleExploreClick, handleNotificatio
               <img className='icon-twiter' alt='casa' src='https://cdn-user-icons.flaticon.com/152601/152601768/1718672867947.svg?token=exp=1718673784~hmac=a3ed8a23b555d07c09a5af694cded6fa'></img>
               <span className='span-2'>Explore</span>
             </div>
-           </div>  
+          </div>  
 
            <div className='hover-iconos tres'  onClick={handleNotificationsClick}> 
               <div className='solo-icon' >
