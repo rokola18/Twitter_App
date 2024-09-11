@@ -14,7 +14,7 @@ body{
     grid-column: 1 / 2;
     position: fixed;
     left: 120px;
-
+    z-index: 1;
 }
 
 .primera-parte{
@@ -780,20 +780,13 @@ hr{
         bottom: 0; 
         background-color: black; 
         left: 10px;
+        z-index: 2;
     }
 
     .segunda-seccion {
         right: auto;
         width: 100%; 
         box-sizing: border-box;
-    }
-
-    .options.active ~ .segunda-seccion {
-        z-index: 1; 
-    }
-    
-    .z-index-lower {
-        z-index: -1; 
     }
 
     .tercera-seccion {
