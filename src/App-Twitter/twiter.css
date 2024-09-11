@@ -779,8 +779,7 @@ hr{
         width: 100%;
         bottom: 0; 
         background-color: black; 
-        z-index: 1000;
-        left: 0px;
+        left: 10px;
     }
 
     .segunda-seccion {
