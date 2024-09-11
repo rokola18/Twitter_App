@@ -93,7 +93,7 @@ const MainContent = () => {
   // Event listener para eliminar un div específico al reducir el tamaño de la pantalla
   window.addEventListener('resize', function() {
     const div = document.querySelector('.eliminar');  
-    if (window.innerWidth < 376) {  // Si la pantalla es menor de 376px
+    if (div && window.innerWidth < 376) {  // Si la pantalla es menor de 376px
       div.remove(); // Elimina el div con la clase 'eliminar'
     }
   });
