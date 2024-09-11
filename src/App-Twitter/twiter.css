@@ -788,6 +788,14 @@ hr{
         box-sizing: border-box;
     }
 
+    .options.active ~ .segunda-seccion {
+        z-index: 1; 
+    }
+    
+    .z-index-lower {
+        z-index: -1; 
+    }
+
     .tercera-seccion {
         display: none; 
     }
