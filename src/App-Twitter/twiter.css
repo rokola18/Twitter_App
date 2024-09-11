@@ -761,11 +761,15 @@ hr{
  }
 
 
- @media (max-width: 376px) and (min-width: 360px) {
+ @media (max-width: 376px) and (min-width: 300px) {
     .primera-seccion {
         right: auto;
         width: 100%; 
         
+    }
+
+    .eliminar{
+        display: none;
     }
 
     .primera-parte{
@@ -782,7 +786,6 @@ hr{
     .segunda-seccion {
         right: auto;
         width: 100%; 
-        z-index: -1;
         box-sizing: border-box;
     }
 

@@ -13,7 +13,7 @@ const SegundaSeccion = ({ showContent, handleReplyClick, isOpen, handleMundoClic
           </div>
           <div className='encabezado-2'>
             <div className='circulo'>j</div>
-            <input type='text' placeholder='What is happening?!' onClick={handleReplyClick} />
+            <input type='text' placeholder='What is happening?!' onClick={handleReplyClick}  onTouchStart={handleReplyClick} />
           </div>
 
           <div className='mundo-padre'>
